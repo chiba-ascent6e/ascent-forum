@@ -492,19 +492,25 @@ li {
 .hero-label {
   display: inline-flex;
   align-items: center;
-  margin: 0 0 20px;
-  font-size: clamp(0.9rem, 1.2vw, 1.1rem);
-  line-height: 1.5;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 0 22px;
+  padding: 8px 16px;
+  border: 1px solid rgba(15, 138, 135, 0.22);
+  border-radius: 999px;
+  color: var(--color-teal);
+  background: rgba(255, 255, 255, 0.48);
+  backdrop-filter: blur(8px);
+  font-size: clamp(0.9rem, 1vw, 1rem);
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  white-space: nowrap;
 }
 
 .hero-label::before {
-  content: "";
-  width: 42px;
-  height: 2px;
-  margin-right: 14px;
-  border-radius: var(--radius-pill);
-  background: currentColor;
-  opacity: 0.75;
+  display: none;
 }
 
 .hero-subtitle {
