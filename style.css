@@ -515,8 +515,8 @@ li {
   border: none;
   padding: 0;
   backdrop-filter: none;
-  font-size: clamp(1rem, 1.15vw, 1.15rem);
-  font-weight: 500;
+  font-size: clamp(1.05rem, 1.25vw, 1.22rem);
+  font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: none;
